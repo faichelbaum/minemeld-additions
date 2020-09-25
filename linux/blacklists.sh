@@ -248,7 +248,7 @@ echo "-- loaded $count entries from /var/log/psad/top_attackers "
 # Some of them are over zealous, you may want to comment out.
 #
 loadblacklist \
-    "myBlackList"
+    "myBlackList" \
     $BL_URL
 
 
